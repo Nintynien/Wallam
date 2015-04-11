@@ -1,0 +1,91 @@
+* { margin: 0; padding: 0; outline:0; }
+
+body {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #fff;
+    background: #1f2224;
+}
+
+a { color: #fff; text-decoration: underline; cursor:pointer; }
+a:hover { text-decoration: none; }
+
+a img { border: 0; }
+
+input, textarea, select { font-family: Arial, Helvetica, sans-serif; font-size:12px; border: 0; }
+textarea { overflow:hidden; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+.shell { width: 980px; margin: 0 auto; }
+
+.header { height: 90px; background: url(images/header.gif) repeat-x 0 0; padding-bottom: 20px; }
+.header .shell { padding: 27px 27px 0 12px; width: 941px; }
+
+h1#logo a { height: 31px; width: 244px; float: left; display: inline; background: url(images/logo.gif) no-repeat 0 0; margin-top: 2px; text-decoration: none; } 
+h1#logo a:hover { text-decoration: none; }
+h1#logo span { font-size: 10px; line-height: 13px; color: #ed1c24; text-transform: uppercase; letter-spacing: 1px; word-spacing: 4px; display: block; padding: 20px 0 0 44px; }
+
+#navigation { width: 600px; float: right; display: inline; font-size: 11px; font-family: verdana, arial, sans-serif; line-height: 32px; }
+#navigation ul { list-style: none; }
+#navigation ul li { float: left; padding-left: 6px; }
+#navigation ul li a { text-decoration: none; }
+#navigation ul li a , 
+#navigation ul li a span { height: 34px; float: left; display: inline; padding: 0 0 0 17px; }
+#navigation ul li a span { padding: 0 17px 0 0; }
+
+#navigation ul li a:hover , 
+#navigation ul li a:hover span { background: url(images/button-hover.gif) no-repeat left 0; }
+#navigation ul li a:hover span { background-position: right 0; }
+
+#navigation ul li a.active { font-weight: bold; }  
+#navigation ul li a.active , 
+#navigation ul li a.active span { background: url(images/button-hover.gif) no-repeat left 0; }
+#navigation ul li a.active span { background-position: right 0; }
+
+.slider { height: 300px; background-color: #6b757c; position: relative; margin-bottom: 40px; }
+
+.slider .shell { position: relative; height: 100%; overflow: hidden; }
+
+.slider-holder { position: relative; width: 980px; height: 300px; overflow: hidden; }
+.slider-holder ul { position: relative; list-style: none outside none; overflow: hidden; }
+.slider-holder ul li,
+.jcarousel-container,
+.jcarousel-clip { position: relative; width: 980px; height: 300px; }
+
+.slider-prev,
+.slider-next { position: absolute; top: 136px; display: block; width: 18px; height: 27px; }
+.slider-prev { left: 28px; background: url(images/prev.png) no-repeat 0 0; }
+.slider-next { right: 28px; background: url(images/next.png) no-repeat 0 0; }
+
+.slider-nav { position: absolute; bottom: 10px; right: 26px; display: block; }
+.slider-nav ul { list-style: none; }
+.slider-nav ul li { float: left; display: inline;  width: 33px; height: 32px; margin-right: 2px; }
+.slider-nav ul li a { display: block; height: 32px; background-color: #252626;  font-size: 18px; text-align: center; line-height: 31px;  color: #fff; text-decoration: none; }
+.slider-nav ul li a:hover,
+.slider-nav ul li a.active { background-color: #ed1c24;  }
+
+.main { padding: 0 25px 33px 29px; }
+
+.cols { padding-bottom: 39px; }
+.cols .col { width: 294px; float: left; margin-right: 22px; }
+.cols .last-col { margin-right: 0; }
+
+.post h2 { font-size: 22px; border-bottom: 2px solid #323537; padding-bottom: 13px; line-height: 22px; font-weight: normal; margin-bottom: 10px; }
+.post h2 a { color: #ed1c24; text-decoration: none; }
+.post h2 a:hover { text-decoration: underline; }
+
+.content { width: 612px; float: left; }
+.sidebar { width: 294px; float: right; }
+
+.footer { background: #151718 url(images/footer.gif) repeat-x 0 top; font-size: 9px; font-family: verdana, arial, sans-serif; color: #8a8b8c; padding-bottom: 15px; }
+.footer .shell { padding: 22px 25px 0 0; width: 955px; }
+.footer p.footer-navigation { float: left; width: 600px; display: inline; }
+.footer p.footer-navigation a { margin-right: 22px; }
+.footer p a { color: #8a8b8c; text-decoration: none; }
+.footer p.right { text-align: right; }
